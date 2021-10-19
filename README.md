@@ -5,6 +5,8 @@
 - Esse projeto simula um teste de um remédio em pacientes para saber quais grupos de pessoas foram afetadas por efeitos adversos, assim, se pode prever, com base nos dados existentes, quais novos pacientes podem ter esses efeitos.
 
 - Bibliotecas utilizadas:
-    - scikit-learn (para importar o algoritmo e dividir o dataset em dados de treino e de teste) - https://scikit-learn.org/stable/index.html
-    - pandas (para ler os arquivos) - https://pandas.pydata.org/pandas-docs/stable/
-    - matplotlib (para gerar gráficos) - https://matplotlib.org/ 
+    - scikit-learn - https://scikit-learn.org/stable/index.html
+    - pandas - https://pandas.pydata.org/pandas-docs/stable/
+    - matplotlib - https://matplotlib.org/
+
+- É necessário escrever o endereço do arquivo `efeito_adverso_de_remedios.csv` na linha 3 e o endereço do arquivo `novos_pacientes.csv` na linha 4

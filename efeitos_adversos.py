@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
-dataset = pd.read_csv("/home/guilherme/Documentos/meus-codigos/efeitos_adversos/efeito_adverso_de_remedios.csv")
-novos_pacientes = pd.read_csv("/home/guilherme/Documentos/meus-codigos/efeitos_adversos/novos_pacientes.csv")
+dataset = pd.read_csv("/efeito_adverso_de_remedios.csv")
+novos_pacientes = pd.read_csv("/novos_pacientes.csv")
 
 # Objetivos:
 # - Ver quais foram os grupos de pessoas mais afetados por efeitos adversos
